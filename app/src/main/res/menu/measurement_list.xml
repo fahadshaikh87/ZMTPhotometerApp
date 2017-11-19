@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/blank"
+        android:title="Blank"/>
+
+    <item
+        android:id="@+id/sample"
+        android:title="Sample/Standard"
+        />
+
+    <item
+        android:id="@+id/calibration"
+        android:title="Calibration"
+        />
+    <item
+        android:id="@+id/diameter"
+        android:title="Cell Diameter Definition"/>
+
+
+
+</menu>

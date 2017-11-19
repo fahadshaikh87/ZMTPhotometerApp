@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Photometer App</string>
+
+    <string-array name="listdata">
+        <item>Help</item>
+        <item>Measurement</item>
+        <item>Parameter Selection</item>
+        <item>Database</item>
+
+    </string-array>
+
+
+</resources>

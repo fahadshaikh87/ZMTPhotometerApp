@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/name"
+        android:title="Sample Name"/>
+
+    <item
+        android:id="@+id/location"
+        android:title="Location"
+        />
+
+    <item
+        android:id="@+id/time"
+        android:title="Time"
+        />
+    <item
+        android:id="@+id/parameter"
+        android:title="Parameter"/>
+
+    <item
+        android:id="@+id/concentration"
+        android:title="Concentration"/>
+
+</menu>

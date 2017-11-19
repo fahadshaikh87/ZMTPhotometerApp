@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/custom"
+        android:title="Custom"/>
+
+    <item
+        android:id="@+id/phosphate"
+        android:title="Phosphate\n ppm"
+        />
+
+    <item
+        android:id="@+id/nitrate"
+        android:title="Nitrate\n ppm(as NO3)"
+        />
+    <item
+        android:id="@+id/nitrite"
+        android:title="Nitrite\n ppm(as NO2)"/>
+    <item
+        android:id="@+id/silica"
+        android:title="Silica\n ppm(as SiO2)"/>
+
+    <item
+        android:id="@+id/turbidity"
+        android:title="Total Alkalinity\n TA"/>
+    <item
+        android:id="@+id/nitrogen"
+        android:title="Nitrate+Nitrite\n ppm(as NOx)"/>
+    <item
+        android:id="@+id/pH"
+        android:title="pH\n ppm"
+        />
+
+</menu>

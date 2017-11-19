@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainLayout">
+    <item
+        android:id="@+id/help_id"
+        android:title="Help"/>
+
+    <item
+        android:id="@+id/database_id"
+        android:title="Database"
+         />
+
+    <item
+        android:id="@+id/parameter_id"
+        android:title="Parameter Selection"
+        />
+    <item
+        android:id="@+id/measurement_id"
+        android:title="Measurement"
+       />
+
+</menu>

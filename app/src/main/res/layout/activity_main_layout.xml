@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.zmt.photometerapp.MainLayout"><![CDATA[
+    android:gravity="center">
+
+
+    ]]>
+
+    <Button
+        android:id="@+id/PairedDevicesButton"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toEndOf="@+id/BluetoothButton"
+        android:layout_toRightOf="@+id/BluetoothButton"
+        android:text="PAIRED DEVICES"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <Button
+        android:id="@+id/BluetoothButton"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/PhotometerIcon"
+        android:layout_marginTop="42dp"
+        android:text="BLUETOOTH" />
+
+    <ImageView
+        android:id="@+id/PhotometerIcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/LocationButton"
+        android:layout_marginTop="27dp"
+        android:foregroundGravity="top|center"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/zmt_logo" />
+
+    <Button
+        android:id="@+id/LocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:onClick="getLocation"
+        android:text="Get Location" />
+
+    <ListView
+        android:id="@+id/ListView"
+        style="@style/Widget.AppCompat.ListView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_above="@+id/PairedDevicesButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/DateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/LocationButton"
+        android:layout_marginLeft="75dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/LocationButton"
+        android:layout_toRightOf="@+id/LocationButton"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
